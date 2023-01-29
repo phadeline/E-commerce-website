@@ -1,11 +1,9 @@
 # E-commerce Back End 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# Employee-Tracker
-
 ## Description
 
-The purpose of this project is to complete the back of an ecommerce shop. In order to this, REST APIs using HTTP Methods (GET, PUT, UPDATE, DELETE) were applied to different routes and connected to the server using express.js. With the help of sequelize, an Object Relational Mapping tool, the app is able to interact with MySQL in order to create a database and perform CRUD (CREATE, READ, UPDATE, DELETE) operations.  
+The purpose of this project is to complete the back end of an ecommerce shop. In order to this, REST APIs using HTTP Methods (GET, PUT, UPDATE, DELETE) were applied to different routes and connected to the server using express.js. With the help of sequelize, an Object Relational Mapping tool, the app is able to interact with MySQL in order to create a database and perform CRUD (CREATE, READ, UPDATE, DELETE) operations.  
 
 ## Table of Contents
 - [Description](#description)
