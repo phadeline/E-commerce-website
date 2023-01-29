@@ -59,7 +59,8 @@ router.put("/:id", async (req, res) => {
     if (!tagdata) {
       res.status(404).json({ message: "No Tag found with that id!" });
     }
-    res.status(200).json(tagdata);
+    const updatetag = await Tag.findByPk(req.params.id);
+    res.status(200).json(updatetag);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -74,7 +75,7 @@ router.delete("/:id", async (req, res) => {
     if (!tagdata) {
       res.status(404).json({ message: "no tag found with this id!" });
     }
-    res.status(200).json(tagdata);
+    res.status(200).json({ message: "Tag successfully deleted" });
   } catch (err) {
     res.status(500).json(err);
   }
